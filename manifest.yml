@@ -1,0 +1,9 @@
+---
+applications:
+  - name: crm-strapi
+    path: .
+    instances: 1
+    buildpack: nodejs_buildpack
+    memory: 256M
+    services:
+      - postgres-instance
